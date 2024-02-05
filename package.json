@@ -1,0 +1,28 @@
+{
+  "name": "stackblitz-starters-7uvwsu",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^20.11.16",
+    "@types/react": "^18.2.52",
+    "@types/react-dom": "^18.2.18",
+    "antd": "^5.14.0",
+    "events": "^3.3.0",
+    "execa": "^8.0.1",
+    "node-bash": "^5.0.1",
+    "node-powershell": "^5.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zlib": "^1.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest",
+    "typescript": "^4.x"
+  }
+}
