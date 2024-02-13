@@ -6,6 +6,7 @@
     "@types/node": "^20.11.16",
     "@types/react": "^18.2.52",
     "@types/react-dom": "^18.2.18",
+    "axios": "1.6.7",
     "antd": "^5.14.0",
     "events": "^3.3.0",
     "execa": "^8.0.1",
@@ -23,6 +24,7 @@
   },
   "devDependencies": {
     "react-scripts": "latest",
+   
     "typescript": "^4.x"
   },
   "browserslist": {
