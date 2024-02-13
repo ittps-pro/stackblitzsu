@@ -1,12 +1,13 @@
-import { StrictMode } from 'react';
+import { StrictMode, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 
 import { Apps } from './App';
 
-const root = createRoot(document.getElementById('app'));
+const container = document.getElementById('app')
+const root = createRoot(container);
 
 root.render(
   <StrictMode>
-    <Apps name="StackBlitz" />
+    <Apps name="TSD" />
   </StrictMode>
 );
