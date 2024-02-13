@@ -70,14 +70,9 @@ async function getUsers() {
 
 export const Apps: FC<{ name: string; username?: string }> = ({ name }) => {
 
-  type RequestState = [
-    { value: '1', label: '1', key: 1 },
-    {  value: '2', label: '2', key: 2 },
-     {  value: '3', label: '3', key: 3},
-     {  value: '4', label: '4', key: 4 }
-    ]
+
   
-  const [requestState, setRequestState] = useState<RequestState>({  value: '4', label: '4', key: 4 });
+  const [requestState, setRequestState] = useState();
   useLayoutEffect(() => {
     getUsers();
   });
