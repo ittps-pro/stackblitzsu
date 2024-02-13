@@ -1,6 +1,6 @@
 import { FC, useState, useEffect, useLayoutEffect } from 'react';
+import { Route, Link } from "react-router-dom";
 
-import './style.css';
 import {
   App,
   ConfigProvider,
@@ -12,6 +12,7 @@ import {
   Typography,
 } from 'antd';
 
+import './style.css';
 
 // type Server = {
 //   id: number;
